@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Proyecto: Sistema renal'
+message: Modelado de Sistemas Fisiológicos/Ingeniería Biomédica
+type: software
+authors:
+  - given-names: Tchandra Yahoel
+    family-names: Camacho Llanes
+    email: l19212376@tijuana.tecnm.mx
+    affiliation: Tecnológico Nacional de México
+  - given-names: Victor Silvano
+    family-names: Dino Seañez
+    email: l20211964@tijuana.tecnm.mx
+    affiliation: Tecnológico Nacional de México
+identifiers:
+  - type: url
+    value: 'https://github.com/Camacho19212376/MSFProyecto'
+    description: Repositorio GitHub
+repository-code: 'https://github.com/Camacho19212376/MSFProyecto'
+url: 'https://github.com/Camacho19212376/MSFProyecto'
+keywords:
+  - Sistema renal
+  - Presión glomerular
+  - Hemodinámica renal
+  - Resistencia vascular
+  - Compliance
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-21'
