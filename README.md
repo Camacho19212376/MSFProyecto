@@ -82,16 +82,13 @@ El modelo se obtiene aplicando la Ley de Voltajes de Kirchhoff (KVL) a cada una 
 
 ### Malla 1
 
-\[
 <img width="587" height="100" alt="image" src="https://github.com/user-attachments/assets/42bcd8c5-ed2e-49e7-a23c-53633a56d23c" />
 
-\]
 
 ### Malla 2
 
-\[
-0=R_2 i_2 + \frac{1}{C}\int(i_2-i_1)dt
-\]
+<img width="379" height="95" alt="image" src="https://github.com/user-attachments/assets/a5166b8e-a86d-489a-9503-cba86618e611" />
+
 
 Estas ecuaciones permiten obtener el sistema de ecuaciones diferenciales y posteriormente la función de transferencia del modelo fisiológico renal.
 
@@ -101,11 +98,11 @@ Estas ecuaciones permiten obtener el sistema de ecuaciones diferenciales y poste
 
 | Componente | Interpretación fisiológica |
 |---|---|
-| \(R1\) | Resistencia vascular de entrada |
-| \(L\) | Inercia del flujo sanguíneo |
-| \(C\) | Compliance/distensibilidad glomerular |
-| \(R2\) | Resistencia de filtración |
-| \(Ve(t)\) | Presión arterial renal |
+| \R1\ | Resistencia vascular de entrada |
+| \L\ | Inercia del flujo sanguíneo |
+| \C\ | Compliance/distensibilidad glomerular |
+| \R2\ | Resistencia de filtración |
+| \Ve(t)\ | Presión arterial renal |
 
 ---
 
