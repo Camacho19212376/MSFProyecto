@@ -54,11 +54,11 @@ El sistema renal puede representarse mediante un circuito RLC equivalente de dos
 
 El modelo fisiológico en condiciones normales está formado por:
 
-- \(R1\): resistencia asociada a la entrada sanguínea renal.
-- \(L\): inercia del flujo sanguíneo.
-- \(C\): compliance o distensibilidad glomerular.
-- \(R2\): resistencia de salida o filtración.
-- \(Ve(t)\): presión arterial de entrada.
+- \R1\: resistencia asociada a la entrada sanguínea renal.
+- \L\: inercia del flujo sanguíneo.
+- \C\: compliance o distensibilidad glomerular.
+- \R2\: resistencia de salida o filtración.
+- \Ve(t)\: presión arterial de entrada.
 
 La estructura consta de dos mallas acopladas mediante un capacitor central que modela la capacidad de almacenamiento y filtración del glomérulo renal.
 
@@ -66,11 +66,11 @@ La estructura consta de dos mallas acopladas mediante un capacitor central que m
 
 Para representar una condición patológica renal se mantiene exactamente la misma topología y número de componentes; únicamente cambian los valores de los parámetros:
 
-- \(R1' > R1\): aumento de resistencia de entrada (vasoconstricción).
-- \(L' \geq L\): incremento de inercia del flujo.
-- \(C' < C\): disminución de la compliance glomerular.
-- \(R2' > R2\): incremento de la resistencia de filtración.
-- \(Ve(t)\): misma excitación de entrada para ambos casos.
+- \R1' > R1\: aumento de resistencia de entrada (vasoconstricción).
+- \L' \geq L\: incremento de inercia del flujo.
+- \C' < C\: disminución de la compliance glomerular.
+- \R2' > R2\: incremento de la resistencia de filtración.
+- \Ve(t)\: misma excitación de entrada para ambos casos.
 
 Este enfoque permite comparar directamente el comportamiento fisiológico normal y anormal sin alterar la estructura matemática del sistema.
 
@@ -83,7 +83,8 @@ El modelo se obtiene aplicando la Ley de Voltajes de Kirchhoff (KVL) a cada una 
 ### Malla 1
 
 \[
-Ve(t)=R1 i1 + L \frac{di_1}{dt} + \frac{1}{C}\int(i1 - i2)dt
+<img width="587" height="100" alt="image" src="https://github.com/user-attachments/assets/42bcd8c5-ed2e-49e7-a23c-53633a56d23c" />
+
 \]
 
 ### Malla 2
