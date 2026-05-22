@@ -4,7 +4,9 @@
 
 ## Información del estudiante
 
-Nombre(s) y Apellidos [No. Control]; correo institucional  
+Tchandra Yahoel Camacho Llanes [19212376]; l19212376@tijuana.tecnm.mx
+
+Victor Silvano Dino Seañez [20211964]; l20211964@tijuana.tecnm.mx
 
 Modelado de Sistemas Fisiológicos  
 
