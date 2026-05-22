@@ -67,11 +67,11 @@ La estructura consta de dos mallas acopladas mediante un capacitor central que m
 
 Para representar una condición patológica renal se mantiene exactamente la misma topología y número de componentes; únicamente cambian los valores de los parámetros:
 
-- \R1' > R1\: aumento de resistencia de entrada (vasoconstricción).
-- \L' = L\: incremento de inercia del flujo.
-- \C' < C\: disminución de la compliance glomerular.
-- \R2' < R2\: incremento de la resistencia de filtración.
-- \Ve(t)\: misma excitación de entrada para ambos casos.
+- R1' > R1: aumento de resistencia de entrada (vasoconstricción).
+- L' = L: incremento de inercia del flujo.
+- C' < C: disminución de la compliance glomerular.
+- R2' < R2: incremento de la resistencia de filtración.
+- Ve(t): misma excitación de entrada para ambos casos.
 
 Este enfoque permite comparar directamente el comportamiento fisiológico normal y anormal sin alterar la estructura matemática del sistema.
 
@@ -99,11 +99,11 @@ Estas ecuaciones permiten obtener el sistema de ecuaciones diferenciales y poste
 
 | Componente | Interpretación fisiológica |
 |---|---|
-| \R1\ | Resistencia vascular de entrada |
-| \L\ | Inercia del flujo sanguíneo |
-| \C\ | Compliance/distensibilidad glomerular |
-| \R2\ | Resistencia de filtración |
-| \Ve(t)\ | Presión arterial renal |
+| R1 | Resistencia vascular de entrada |
+| L | Inercia del flujo sanguíneo |
+| C | Compliance/distensibilidad glomerular |
+| R2 | Resistencia de filtración |
+| Ve(t) | Presión arterial renal |
 
 ---
 
@@ -129,7 +129,7 @@ En el caso patológico se espera:
 - Incremento de resistencia vascular.
 - Menor compliance glomerular.
 - Alteraciones en la dinámica del flujo sanguíneo.
-- Cambios en las corrientes equivalentes \(i1\) e \(i2\).
+- Cambios en las corrientes equivalentes i1 e i2.
 
 ---
 
