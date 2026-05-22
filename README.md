@@ -68,10 +68,10 @@ La estructura consta de dos mallas acopladas mediante un capacitor central que m
 Para representar una condición patológica renal se mantiene exactamente la misma topología y número de componentes; únicamente cambian los valores de los parámetros:
 
 - R1' > R1: aumento de resistencia de entrada (vasoconstricción).
-- L' = L: incremento de inercia del flujo.
+- L' = L: misma inercia del flujo en ambos casos.
 - C' < C: disminución de la compliance glomerular.
-- R2' < R2: incremento de la resistencia de filtración.
-- Ve(t): misma excitación de entrada para ambos casos.
+- R2' < R2: disminucion de la resistencia de filtración (daño glomelular).
+- Ve(t): misma entrada para ambos casos.
 
 Este enfoque permite comparar directamente el comportamiento fisiológico normal y anormal sin alterar la estructura matemática del sistema.
 
