@@ -53,11 +53,11 @@ El sistema renal puede representarse mediante un circuito RLC equivalente de dos
 
 El modelo fisiológico en condiciones normales está formado por:
 
-- \(R_1\): resistencia asociada a la entrada sanguínea renal.
-- \(L_1\): inercia del flujo sanguíneo.
+- \(R1\): resistencia asociada a la entrada sanguínea renal.
+- \(L\): inercia del flujo sanguíneo.
 - \(C\): compliance o distensibilidad glomerular.
-- \(R_2\): resistencia de salida o filtración.
-- \(V_{in}(t)\): presión arterial de entrada.
+- \(R2\): resistencia de salida o filtración.
+- \(Ve(t)\): presión arterial de entrada.
 
 La estructura consta de dos mallas acopladas mediante un capacitor central que modela la capacidad de almacenamiento y filtración del glomérulo renal.
 
@@ -65,11 +65,11 @@ La estructura consta de dos mallas acopladas mediante un capacitor central que m
 
 Para representar una condición patológica renal se mantiene exactamente la misma topología y número de componentes; únicamente cambian los valores de los parámetros:
 
-- \(R_1' > R_1\): aumento de resistencia de entrada (vasoconstricción).
-- \(L_1' \geq L_1\): incremento de inercia del flujo.
+- \(R1' > R1\): aumento de resistencia de entrada (vasoconstricción).
+- \(L' \geq L\): incremento de inercia del flujo.
 - \(C' < C\): disminución de la compliance glomerular.
-- \(R_2' > R_2\): incremento de la resistencia de filtración.
-- \(V_{in}(t)\): misma excitación de entrada para ambos casos.
+- \(R2' > R2\): incremento de la resistencia de filtración.
+- \(Ve(t)\): misma excitación de entrada para ambos casos.
 
 Este enfoque permite comparar directamente el comportamiento fisiológico normal y anormal sin alterar la estructura matemática del sistema.
 
@@ -82,7 +82,7 @@ El modelo se obtiene aplicando la Ley de Voltajes de Kirchhoff (KVL) a cada una 
 ### Malla 1
 
 \[
-V_{in}(t)=R_1 i_1 + L_1 \frac{di_1}{dt} + \frac{1}{C}\int(i_1-i_2)dt
+Ve(t)=R1 i1 + L \frac{di_1}{dt} + \frac{1}{C}\int(i1 - i2)dt
 \]
 
 ### Malla 2
@@ -99,11 +99,11 @@ Estas ecuaciones permiten obtener el sistema de ecuaciones diferenciales y poste
 
 | Componente | Interpretación fisiológica |
 |---|---|
-| \(R_1\) | Resistencia vascular de entrada |
-| \(L_1\) | Inercia del flujo sanguíneo |
+| \(R1\) | Resistencia vascular de entrada |
+| \(L\) | Inercia del flujo sanguíneo |
 | \(C\) | Compliance/distensibilidad glomerular |
-| \(R_2\) | Resistencia de filtración |
-| \(V_{in}(t)\) | Presión arterial renal |
+| \(R2\) | Resistencia de filtración |
+| \(Ve(t)\) | Presión arterial renal |
 
 ---
 
@@ -129,7 +129,7 @@ En el caso patológico se espera:
 - Incremento de resistencia vascular.
 - Menor compliance glomerular.
 - Alteraciones en la dinámica del flujo sanguíneo.
-- Cambios en las corrientes equivalentes \(i_1\) e \(i_2\).
+- Cambios en las corrientes equivalentes \(i1\) e \(i2\).
 
 ---
 
