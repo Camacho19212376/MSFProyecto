@@ -49,76 +49,63 @@ En este trabajo se desarrolla un modelo eléctrico equivalente del sistema renal
 
 ## Malla 1
 
-\[
-V_e(t)=R_1 i_1(t)+L\frac{di_1(t)}{dt}+\frac{1}{C}\int [i_1(t)-i_2(t)]dt
-\]
+<img width="531" height="77" alt="image" src="https://github.com/user-attachments/assets/ac97cd13-984a-4598-8a19-07b3e2b77819" />
 
 ## Malla 2
 
-\[
-\frac{1}{C}\int [i_1(t)-i_2(t)]dt = R_2 i_2(t)
-\]
+<img width="566" height="534" alt="image" src="https://github.com/user-attachments/assets/a7231871-b706-4d18-bd49-e4b16b442026" />
+
+
+## Salida del sistema
+<img width="256" height="67" alt="image" src="https://github.com/user-attachments/assets/7ebc2e6d-acad-400e-aff0-c49658c60c09" />
 
 ## Transformada de Laplace
 
-\[
-V_e(s)=R_1 I_1(s)+LsI_1(s)+\frac{I_1(s)-I_2(s)}{Cs}
-\]
+<img width="484" height="466" alt="image" src="https://github.com/user-attachments/assets/2560d9d1-8c9c-45f1-ab04-1d27fbebc171" />
+<img width="339" height="228" alt="image" src="https://github.com/user-attachments/assets/6dd93616-3e5f-4920-b281-17158294f7aa" />
 
-\[
-\frac{I_1(s)-I_2(s)}{Cs}=R_2 I_2(s)
-\]
+
+## Sustitucion en la ecuacion principal
+
+<img width="884" height="258" alt="image" src="https://github.com/user-attachments/assets/cb50f36c-f75f-4af3-aa17-6c6f590e53a1" />
 
 ## Función de transferencia
 
-\[
-\frac{V_s(s)}{V_e(s)}=
-\frac{R_2}{CR_2Ls^2+(CR_1R_2+L)s+R_1+R_2}
-\]
 
----
+<img width="517" height="101" alt="image" src="https://github.com/user-attachments/assets/08be677a-8c4e-4468-86da-57bd1b4ee39a" />
+
 
 # Error estacionario
 
-\[
-e(s)=\frac{R_1}{R_1+R_2}
-\]
+<img width="352" height="73" alt="image" src="https://github.com/user-attachments/assets/ef59d625-e251-4e60-8cbc-4ca566f6e06b" />
+
 
 ## Caso control
 
-\[
-\frac{10}{40+10}=\frac{1}{5}
-\]
+<img width="267" height="232" alt="image" src="https://github.com/user-attachments/assets/09438816-4272-4ea1-ad25-1914fbd87fb1" />
+
 
 ## Caso patológico
 
-\[
-\frac{80}{10+80}=\frac{8}{9}
-\]
+<img width="179" height="103" alt="image" src="https://github.com/user-attachments/assets/f73fdc7c-2afd-40ea-8d61-5714e13a16c1" />
 
----
 
 # Análisis de estabilidad
 
-\[
-\lambda_{1,2}=
-\frac{-(CR_1R_2+L)\pm
-\sqrt{(CR_1R_2+L)^2-4(CR_2L)(R_1+R_2)}}{2(CR_2L)}
-\]
+<img width="708" height="126" alt="image" src="https://github.com/user-attachments/assets/b2532ac5-d89d-4eaa-977d-552eb5aed149" />
+
 
 ## Parámetros del caso control
 
-- \(R_1=10\Omega\)
-- \(R_2=40\Omega\)
-- \(C=100\mu F\)
-- \(L=10\mu H\)
+<img width="210" height="161" alt="image" src="https://github.com/user-attachments/assets/ba819209-8a13-423f-a514-ffaff47c73a4" />
+
+<img width="336" height="181" alt="image" src="https://github.com/user-attachments/assets/8ddb97ab-af5a-458b-8287-77703e91dce5" />
 
 ## Parámetros del caso patológico
 
-- \(R_1=80\Omega\)
-- \(R_2=10\Omega\)
-- \(C=20\mu F\)
-- \(L=10\mu F\)
+<img width="221" height="167" alt="image" src="https://github.com/user-attachments/assets/bd1200e7-70ae-4e5a-86e3-5d6fa18fcb43" />
+
+<img width="262" height="196" alt="image" src="https://github.com/user-attachments/assets/57230e40-3cf7-4c3d-b692-cf6347a1ef8c" />
 
 El sistema es estable debido a que ambas raíces son reales y negativas, produciendo una respuesta sobreamortiguada.
 
