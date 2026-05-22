@@ -1,6 +1,7 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Camacho19212376/MSFProyecto)
 
 # Modelo RLC del Sistema Renal – Modelado de Sistemas Fisiológicos
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d30dfd00-9a33-4a07-bf14-ae2e44ada9fc" />
 
 ## Información del estudiante
 
