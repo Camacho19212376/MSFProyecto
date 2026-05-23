@@ -83,7 +83,7 @@ El modelo se obtiene aplicando la Ley de Voltajes de Kirchhoff (KVL) a cada una 
 
 ### Malla 1
 
-<img width="587" height="100" alt="image" src="https://github.com/user-attachments/assets/42bcd8c5-ed2e-49e7-a23c-53633a56d23c" />
+V_(e(t))=R1+L di1/dt+1/C ∫(i1-i2)dt
 
 
 ### Malla 2
