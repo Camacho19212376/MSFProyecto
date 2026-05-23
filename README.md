@@ -188,14 +188,14 @@ $$
 Cuando se usan los valores de Control, el error en estado estacionario se muestra como:
 
 $$
-\frac{10}{40+10}=\frac{1}{5}
+e(s)=\frac{10}{40+10}=\frac{1}{5}
 $$
 
 ## Caso
 En contraste, cuando se usan los valores de Caso, el error en estado estacionario se muestra como:
 
 $$
-\frac{80}{10+80}=\frac{8}{9}
+e(s)=\frac{80}{10+80}=\frac{8}{9}
 $$
 
 ---
