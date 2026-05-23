@@ -119,7 +119,7 @@ $$
 
 # Desarrollo algebraico
 
-Despejando:
+Despejando I_1 de la segunda ecuación:
 
 $$
 \frac{I_1(s)}{Cs}-\frac{I_2(s)}{Cs}=R_2I_2(s)
@@ -133,7 +133,7 @@ $$
 I_1(s)=(CR_2s+1)I_2(s)
 $$
 
-Sustituyendo en la ecuación principal:
+Se utiliza el valor de I_1 obtenido para sustituir en la ecuación principal:
 
 $$
 V_e(s)=R_1(CR_2s+1)I_2(s)+Ls(CR_2s+1)I_2(s)+\frac{(CR_2s+1)I_2(s)-I_2(s)}{Cs}
@@ -148,7 +148,7 @@ $$
 ---
 
 # Función de transferencia
-
+Una vez que tenemos el valor de Ve(s), lo usamos para calcular la función de transferencia:
 $$
 \frac{V_s(s)}{V_e(s)}=
 \frac{R_2}{CR_2Ls^2+(CR_1R_2+L)s+R_1+R_2}
@@ -159,15 +159,15 @@ $$
 # Ecuaciones integrodiferenciales
 
 $$
-R_1i_1(t)=V_e(t)-L\frac{di_1(t)}{dt}-\frac{1}{C}\int[i_1(t)-i_2(t)]dt
-$$
-
-$$
 i_1(t)=\frac{V_e(t)-L\frac{di_1(t)}{dt}-\frac{1}{C}\int[i_1(t)-i_2(t)]dt}{R_1}
 $$
 
 $$
 i_2(t)=\frac{\frac{1}{C}\int[i_1(t)-i_2(t)]dt}{R_2}
+$$
+
+$$
+V_s(t)=R_2 i_2(t)
 $$
 
 ---
