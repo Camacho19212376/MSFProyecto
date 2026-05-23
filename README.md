@@ -173,7 +173,7 @@ $$
 ---
 
 # Error estacionario
-
+El sistema es estable dado que ambas raices son negativas y reales.Entonces el sistema presenta una respuesta sobreamortiguada.
 $$
 e(s)=\lim_{s\to0}sV_e(s)\left[1-\frac{V_s(s)}{V_e(s)}\right]
 $$
