@@ -209,7 +209,7 @@ $$
 
 ---
 
-# Parámetros del sistema de control
+## Componentes de control
 
 - R1 = 10 Ω
 - R2 = 40 Ω
@@ -228,7 +228,7 @@ $$
 
 ---
 
-# Parámetros del sistema patológico
+# Componentes del caso
 
 - R1 = 80 Ω
 - R2 = 10 Ω
@@ -294,6 +294,9 @@ En el caso patológico se espera:
 - Métodos de análisis en Laplace
 
 ---
+
+# Palabras clave
+Las palabras clave utilizada en este proyecto son: Sistema renal, Presión glomerular, Hemodinámica renal,, Resistencia vascular, Compliance.
 
 ## Archivos incluidos en el repositorio
 
