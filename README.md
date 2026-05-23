@@ -172,8 +172,7 @@ $$
 
 ---
 
-# Error estacionario
-El sistema es estable dado que ambas raices son negativas y reales.Entonces el sistema presenta una respuesta sobreamortiguada.
+# Error en estado estacionario
 
 $$
 e(s)=\lim_{s\to0}sV_e(s)\left[1-\frac{V_s(s)}{V_e(s)}\right]
@@ -185,13 +184,15 @@ $$
 e(s)=\frac{R_1}{R_1+R_2}
 $$
 
-## Caso de control
+## Control
+Cuando se usan los valores de Control, el error en estado estacionario se muestra como:
 
 $$
 \frac{10}{40+10}=\frac{1}{5}
 $$
 
-## Caso patológico
+## Caso
+En contraste, cuando se usan los valores de Caso, el error en estado estacionario se muestra como:
 
 $$
 \frac{80}{10+80}=\frac{8}{9}
@@ -200,11 +201,10 @@ $$
 ---
 
 # Análisis de estabilidad
+El sistema es estable dado que ambas raices son negativas y reales. Entonces el sistema presenta una respuesta sobreamortiguada.
 
 $$
-\lambda_{1,2}=
-\frac{-(CR_1R_2+L)\pm
-\sqrt{(CR_1R_2+L)^2-4(CR_2L)(R_1+R_2)}}{2(CR_2L)}
+\lambda_{1,2}= \frac{-(CR_1R_2+L)\pm \sqrt{(CR_1R_2+L)^2-4(CR_2L)(R_1+R_2)}}{2(CR_2L)}
 $$
 
 ---
