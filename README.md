@@ -228,7 +228,7 @@ $$
 
 ---
 
-# Componentes del caso
+## Componentes del caso
 
 - R1 = 80 Ω
 - R2 = 10 Ω
