@@ -63,7 +63,7 @@ En este trabajo se desarrolla un modelo eléctrico equivalente del sistema renal
 
 <img width="484" height="466" alt="image" src="https://github.com/user-attachments/assets/2560d9d1-8c9c-45f1-ab04-1d27fbebc171" />
 
-
+  
 <img width="339" height="228" alt="image" src="https://github.com/user-attachments/assets/6dd93616-3e5f-4920-b281-17158294f7aa" />
 
 
