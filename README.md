@@ -119,7 +119,7 @@ $$
 
 # Desarrollo algebraico
 
-Despejando I_1 de la segunda ecuación:
+Despejando I1 de la segunda ecuación:
 
 $$
 \frac{I_1(s)}{Cs}-\frac{I_2(s)}{Cs}=R_2I_2(s)
@@ -133,7 +133,7 @@ $$
 I_1(s)=(CR_2s+1)I_2(s)
 $$
 
-Se utiliza el valor de I_1 obtenido para sustituir en la ecuación principal:
+Se utiliza el valor de I1 obtenido para sustituir en la ecuación principal:
 
 $$
 V_e(s)=R_1(CR_2s+1)I_2(s)+Ls(CR_2s+1)I_2(s)+\frac{(CR_2s+1)I_2(s)-I_2(s)}{Cs}
