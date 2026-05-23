@@ -149,9 +149,9 @@ $$
 
 # Función de transferencia
 Una vez que tenemos el valor de Ve(s), lo usamos para calcular la función de transferencia:
+
 $$
-\frac{V_s(s)}{V_e(s)}=
-\frac{R_2}{CR_2Ls^2+(CR_1R_2+L)s+R_1+R_2}
+\frac{V_s(s)}{V_e(s)}= \frac{R_2}{CR_2Ls^2+(CR_1R_2+L)s+R_1+R_2}
 $$
 
 ---
