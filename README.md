@@ -178,11 +178,7 @@ $$
 e(s)=\lim_{s\to0}sV_e(s)\left[1-\frac{V_s(s)}{V_e(s)}\right]
 $$
 
-Sustituyendo la función de transferencia:
-
-$$
-e(s)=1-\frac{R_2}{R_1+R_2}
-$$
+Sustituyendo valores e igualando, el error en estado estacionario es:
 
 $$
 e(s)=\frac{R_1}{R_1+R_2}
