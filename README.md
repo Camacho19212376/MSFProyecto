@@ -333,3 +333,5 @@ Las variaciones paramétricas en resistencias, inductancias y capacitancias perm
 [3] N. S. Nise, *Control Systems Engineering*, 8th ed. John Wiley & Sons, 2020.
 
 [4] J. Enderle y J. Bronzino, *Introduction to Biomedical Engineering*, Academic Press, 2012.
+
+[5] G. A. Whetury J. G. Ehlof Foundations of Biomedical Engineering, 5th ed, Eslevier, 2001.
