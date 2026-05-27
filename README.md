@@ -318,6 +318,12 @@ Las variaciones paramétricas en resistencias, inductancias y capacitancias perm
 
 ---
 
+# Infografía
+
+<img width="2000" height="1414" alt="Infografia" src="https://github.com/user-attachments/assets/f5fca5f0-97b4-411f-b8b4-64f170972816" />
+
+---
+
 ## Referencias
 
 [1] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025.
